@@ -1,6 +1,6 @@
 # Clinical Analytics & 30-Day Diabetes Readmission Pipeline
 
-An end-to-end healthcare data science and clinical analytics pipeline that predicts 30-day hospital readmissions among diabetic patients. 
+An end-to-end healthcare data science and clinical analytics pipeline that identifies who returns for a  30-day hospital readmission among patients with diabetes. 
 
 This project integrates in-memory SQL extraction, machine learning classification, and clinical risk scoring to surface actionable patient cohorts for care coordinators and clinical teams.
 
@@ -20,7 +20,7 @@ This project utilizes the **Diabetes 130-US Hospitals for Years 1999–2008 Data
 
 ## Overview & Clinical Objectives
 
-30-day readmissions represent a critical quality metric and financial penalty under hospital value-based purchasing programs. This pipeline solves two core operational challenges:
+30-day readmissions represent a critical quality metric and financial risk under hospital value-based purchasing programs. This pipeline solves two core operational challenges:
 
 * **Statistical Risk Prediction:** Quantifies 30-day readmission risk via balanced Logistic Regression and extracts feature odds ratios ($\text{OR} = e^{\beta}$).
 * **Rule-Based Clinical Triage:** Constructs an interpretable, point-based clinical risk index (Low, Moderate, High Priority) aligned with bedside decision rules.
