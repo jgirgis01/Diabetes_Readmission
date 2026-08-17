@@ -98,7 +98,7 @@ To complement probabilistic outputs with transparent bedside rules, a cumulative
 3. **Run the pipeline:**
    Place the raw dataset `diabetic_data.csv` in the root directory and run:
    ```bash
-   python pipeline.py
+   workflow.py
    ```
 
 ---
