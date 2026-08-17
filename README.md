@@ -8,6 +8,16 @@ This project integrates in-memory SQL extraction, machine learning classificatio
 
 ---
 
+## Dataset & Clinical Source
+
+This project utilizes the **Diabetes 130-US Hospitals for Years 1999–2008 Dataset** from the UCI Machine Learning Repository.
+
+* **Source:** [UCI Machine Learning Repository – Diabetes 130-US Hospitals](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
+* **Dataset Scope:** 10 years of clinical care data representing 101,766 inpatient encounters across 130 US hospitals.
+* **Key Attributes:** Demographics, admission/discharge clinical dispositions, length of stay, laboratory diagnostics (HbA1c, glucose), 23 diabetes medications, ICD-9 primary/secondary diagnoses, and 30-day readmission outcomes.
+
+---
+
 ## Overview & Clinical Objectives
 
 30-day readmissions represent a critical quality metric and financial penalty under hospital value-based purchasing programs. This pipeline solves two core operational challenges:
