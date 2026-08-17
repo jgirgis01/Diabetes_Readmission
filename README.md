@@ -1,6 +1,3 @@
-# Diabetes_Readmission
-A SQL and pandas workflow for creating tableau dashboard
-
 # Clinical Analytics & 30-Day Diabetes Readmission Pipeline
 
 An end-to-end healthcare data science and clinical analytics pipeline that predicts 30-day hospital readmissions among diabetic patients. 
